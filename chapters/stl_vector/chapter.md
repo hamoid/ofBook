@@ -126,7 +126,7 @@ An element can be removed from a vector using *erase*. This function takes in an
 ```cpp
 particles.erase( particles.begin() ); // erase first element
 
-particles.erase( particles.begin() + 3 ); // erase third element
+particles.erase( particles.begin() + 3 ); // erase fourth element
 
 particles.erase( particles.begin(), particles.begin()+2 ); // remove first 2 elements
 ```
